@@ -2,6 +2,6 @@
 
 using Robust.Shared.ContentPack;
 
-namespace Content.Trauma.Client.Entry;
+namespace Content.Vagrant.Client.Entry;
 
 public sealed partial class EntryPoint : GameClient;

@@ -2,7 +2,7 @@
 
 using Robust.Shared.ContentPack;
 
-namespace Content.Trauma.Shared.Entry;
+namespace Content.Vagrant.Shared.Entry;
 
 public sealed partial class EntryPoint : GameShared
 {
