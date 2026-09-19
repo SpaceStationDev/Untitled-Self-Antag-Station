@@ -1,6 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="750" height="600" src="https://github.com/Trauma-Station/Trauma-Station/blob/master/Resources/Textures/Logo/logo.png" /></p>
-
-This is a fork of [SS14](https://github.com/space-wizards/space-station-14) called Trauma Station.
+This is a fork of [SS14](https://github.com/space-wizards/space-station-14) called Untitled Self Antag Station.
 
 ## Links
 
@@ -8,7 +6,7 @@ This is a fork of [SS14](https://github.com/space-wizards/space-station-14) call
 
 ## Documentation/Wiki
 
-Trauma itself has a non-technical wiki on its content [here](https://wiki.traumastation.com/wiki/Main_Page)
+We need a wiki - 6 months out
 
 SS14 Docs [docs site](https://docs.spacestation14.com/) has documentation on SS14's content, engine, game design, and more. It also has lots of resources for new contributors to the project.
 
