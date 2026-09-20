@@ -256,10 +256,10 @@
   name: loadout-group-passenger-jumpsuit
   loadouts:
  # <Vagrant> Hobo clothes
-  # - GreyJumpsuit
-  # - GreyJumpskirt
   - RippedShortsWithTop
   - RippedShorts
+  - GreyJumpsuit
+  - GreyJumpskirt
 
 - type: loadoutGroup
   id: PassengerHead
@@ -271,17 +271,6 @@
   - PassengerBeanie
   - PassengerBananaHat
  # </Vagrant>
-
-- type: loadoutGroup
-  id: PassengerAccessory
-  name: loadout-group-passenger-accessory
-  minLimit: 0
-  loadouts:
-  - PassengerShiv
-  - PassengerBrokenBottle
-  - PassengerCrack
-  - PassengerFent
-  - PassengerBeer
 
  # <Trauma> Made useless by now being a learner role
  # - AncientJumpsuit

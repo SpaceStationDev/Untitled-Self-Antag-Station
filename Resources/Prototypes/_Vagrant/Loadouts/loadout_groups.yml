@@ -1,0 +1,10 @@
+- type: loadoutGroup
+  id: PassengerAccessory
+  name: loadout-group-passenger-accessory
+  minLimit: 0
+  loadouts:
+  - PassengerShiv
+  - PassengerBrokenBottle
+  - PassengerCrack
+  - PassengerFent
+  - PassengerBeer

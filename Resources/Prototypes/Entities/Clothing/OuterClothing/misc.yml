@@ -443,14 +443,3 @@
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
-
-- type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterBarrel
-  name: barrel
-  description: To show off your cartoonish level of impoverishment. It would be funny if it weren't so sad.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Misc/barrel.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Misc/barrel.rsi

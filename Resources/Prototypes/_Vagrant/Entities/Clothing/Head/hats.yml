@@ -1,0 +1,41 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVagrantBeanie
+  name: beanie
+  description: A drab old beanie.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beanie.rsi
+    layers:
+    - state: body-icon
+      color: "#525042"
+    - state: cuffcrown-icon
+      color: "#525042"
+    - state: pompom-icon
+      color: "#525042"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: body-inhand-left
+        color: "#525042"
+      - state: cuffcrown-inhand-left
+        color: "#525042"
+      - state: pompom-inhand-left
+        color: "#525042"
+      right:
+      - state: body-inhand-right
+        color: "#525042"
+      - state: cuffcrown-inhand-right
+        color: "#525042"
+      - state: pompom-inhand-right
+        color: "#525042"
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beanie.rsi
+    clothingVisuals:
+      head:
+      - state: body-equipped-HELMET
+        color: "#525042"
+      - state: cuffcrown-equipped-HELMET
+        color: "#525042"
+      - state: pompom-equipped-HELMET
+        color: "#525042"

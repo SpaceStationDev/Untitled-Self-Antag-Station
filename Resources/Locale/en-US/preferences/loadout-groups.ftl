@@ -234,7 +234,3 @@ loadout-group-tramdriver-jumpsuit = Tram driver jumpsuit
 loadout-group-tramdriver-outerclothing = Tram driver suit
 loadout-group-tramdriver-hat = Tram driver hat
 loadout-group-tramdriver-gloves = Tram driver gloves
-
-# Vagrant Passenger Accessory & Head
-loadout-group-passenger-accessory = Passenger accessory
-loadout-group-passenger-head = Passenger head

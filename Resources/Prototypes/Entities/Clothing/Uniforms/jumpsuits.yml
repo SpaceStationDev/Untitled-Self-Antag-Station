@@ -1386,27 +1386,3 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
-
-# <Vagrant>
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformRippedShorts
-  name: ripped shorts
-  description: Ripped... pants.
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformRippedShortsWithTop
-  name: ripped shorts with top
-  description: Ripped... pants.
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi
-# </Vagrant>

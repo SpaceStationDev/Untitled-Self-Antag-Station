@@ -1,0 +1,18 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoeSlippersBottle
+  name: water bottle slippers
+  description: They can laugh all they want. Let's see them try to walk through the slums barefoot without stepping on broken glass and used needles.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Misc/bottle-slippers.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Misc/bottle-slippers.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepPlastic
+      params:
+        variation: 0.07
+  - type: Construction
+    graph: ClothingShoeSlippersBottle
+    node: shoes
