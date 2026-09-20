@@ -141,6 +141,26 @@
     slots:
     - Hair
 
+# <Vagrant>
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodVagrantHood
+  categories: [ HideSpawnMenu ]
+  name: vagrant hood
+  description: Old faithful.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hoods/vagrantcoat.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hoods/vagrantcoat.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+# </Vagrant>
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCulthood

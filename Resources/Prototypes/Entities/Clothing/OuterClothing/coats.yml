@@ -594,3 +594,19 @@
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatExpensive]
   id: ClothingOuterCoatExpensiveOpened
   name: expensive coat
+
+# <Vagrant>
+- type: entity
+  parent: ClothingOuterBaseToggleable
+  id: ClothingOuterCoatVagrant
+  name: old faithful
+  description: A raggedy old coat. You can't bring yourself to let her go.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/vagrantcoat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/vagrantcoat.rsi
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHatHoodVagrantHood
+# </Vagrant>

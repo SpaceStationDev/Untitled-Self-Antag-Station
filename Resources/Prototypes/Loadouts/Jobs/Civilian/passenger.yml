@@ -12,6 +12,18 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorGrey
 
+# <Vagrant>
+- type: loadout
+  id: RippedShorts
+  equipment:
+    jumpsuit: ClothingUniformRippedShorts
+
+- type: loadout
+  id: RippedShortsWithTop
+  equipment:
+    jumpsuit: ClothingUniformRippedShortsWithTop
+# </Vagrant>
+
 # <Trauma> To prevent the no loadout orphans test from failing, all currently orphans must be commented.
 # Rainbow
 # - type: loadout
@@ -49,16 +61,17 @@
 #       !type:RoleTimeRequirement
 #       role: JobPassenger
 #       time: 10h # silly reward for people who play passenger a lot
+# </Trauma>
 
+# <Vagrant>
 # Face
-# - type: loadout
-#   id: PassengerFace
-#   effects:
-#   - !type:GroupLoadoutEffect
-#     proto: GreyTider
-#   equipment:
-#     mask: ClothingMaskGas
+- type: loadout
+  id: PassengerFace
+  equipment:
+    mask: ClothingMaskGas
+# </Vagrant>
 
+# <Trauma>
 # - type: loadoutEffectGroup
 #   id: MasterGrey
 #   effects:
@@ -76,16 +89,22 @@
 #   effects:
 #   - !type:GroupLoadoutEffect
 #     proto: MasterGrey
+# </Trauma>
 
+# <Vagrant>
 # Gloves
-# - type: loadout
-#   id: PassengerGloves
-#   effects:
-#   - !type:GroupLoadoutEffect
-#     proto: GreyTider
-#   equipment:
-#     gloves: ClothingHandsGlovesFingerlessInsulated
+- type: loadout
+  id: PassengerGloves
+  equipment:
+    gloves: ClothingHandsGlovesFingerlessInsulated
 
+- type: loadout
+  id: PassengerGlovesBlack
+  equipment:
+    gloves: ClothingHandsGlovesFingerless
+# </Vagrant>
+
+# <Trauma>
 # Neck
 # - type: startingGear
 #   id: Mantle
@@ -110,13 +129,39 @@
   equipment:
     back: ClothingBackpackDuffel
 
+
+
+
 # Outerclothing
+# <Vagrant>
+- type: loadout
+  id: PassengerVagrantCoat
+  equipment:
+    outerClothing: ClothingOuterCoatVagrant
+- type: loadout
+  id: PassengerBarrel
+  equipment:
+    outerClothing: ClothingOuterBarrel
+# <Vagrant>
+
 - type: loadout
   id: PassengerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
 
 # Shoes
+# <Vagrant>
+- type: loadout
+  id: PassengerBottleSlippers
+  equipment:
+    shoes: ClothingShoeSlippersBottle
+
+- type: loadout
+  id: PassengerOldSocks
+  equipment:
+    shoes: ClothingUnderSocksOld
+# <Vagrant>
+
 - type: loadout
   id: BlackShoes
   equipment:
@@ -127,6 +172,59 @@
   equipment:
     shoes: ClothingShoesBootsWinter
 
+# <Vagrant>
+# Head
+- type: loadout
+  id: PassengerCone
+  equipment:
+    head: ClothingHeadHatCone
+
+- type: loadout
+  id: PassengerTinfoil
+  equipment:
+    head: ClothingHeadHatTinfoilHat
+
+- type: loadout
+  id: PassengerBeanie
+  equipment:
+    head: ClothingHeadHatVagrantBeanie
+
+- type: loadout
+  id: PassengerBananaHat
+  equipment:
+    head: TrashBananaPeel
+
+# Accessory
+- type: loadout
+  id: PassengerShiv
+  storage:
+    back:
+    - Shiv
+
+- type: loadout
+  id: PassengerBrokenBottle
+  storage:
+    back:
+    - BrokenBottle
+
+- type: loadout
+  id: PassengerCrack
+  storage:
+    back:
+    - CrackChemistryVial
+
+- type: loadout
+  id: PassengerFent
+  storage:
+    back:
+    - FentanylChemistryVial
+
+- type: loadout
+  id: PassengerBeer
+  storage:
+    back:
+    - DrinkBeerCan
+# </Vagrant>
 
 # service jumpsuit - putting it here because frontier's only service jumpsuits are hydroponics and general lmao # goob change btw
 

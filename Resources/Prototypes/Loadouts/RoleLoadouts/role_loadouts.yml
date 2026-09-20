@@ -64,8 +64,8 @@
   - CommonBackpack
   - PassengerNeck
  # <Trauma> No longer unlockable
- #- PassengerGloves
- #- PassengerFace
+  - PassengerGloves # Vagrant
+  - PassengerFace # Vagrant
  # </Trauma>
   - PassengerOuterClothing
   - PassengerShoes
@@ -79,6 +79,10 @@
   - AssistantEnvirohelm
   - AssistantEnvirosuit
   - AssistantEnvirogloves
+  # <Vagrant>
+  - PassengerHead
+  - PassengerAccessory
+  # </Vagrant>
   - ExclusiveItems # Trauma
 
 

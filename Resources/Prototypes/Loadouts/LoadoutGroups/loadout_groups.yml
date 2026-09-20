@@ -255,27 +255,56 @@
   id: PassengerJumpsuit
   name: loadout-group-passenger-jumpsuit
   loadouts:
-  - GreyJumpsuit
-  - GreyJumpskirt
+ # <Vagrant> Hobo clothes
+  # - GreyJumpsuit
+  # - GreyJumpskirt
+  - RippedShortsWithTop
+  - RippedShorts
+
+- type: loadoutGroup
+  id: PassengerHead
+  name: loadout-group-passenger-head
+  minLimit: 0
+  loadouts:
+  - PassengerCone
+  - PassengerTinfoil
+  - PassengerBeanie
+  - PassengerBananaHat
+ # </Vagrant>
+
+- type: loadoutGroup
+  id: PassengerAccessory
+  name: loadout-group-passenger-accessory
+  minLimit: 0
+  loadouts:
+  - PassengerShiv
+  - PassengerBrokenBottle
+  - PassengerCrack
+  - PassengerFent
+  - PassengerBeer
+
  # <Trauma> Made useless by now being a learner role
  # - AncientJumpsuit
  # - RainbowJumpsuit
  # - RainbowJumpskirt
+ # </Trauma>
 
-#- type: loadoutGroup
- # id: PassengerFace
- # name: loadout-group-passenger-mask
- # minLimit: 0
- # loadouts:
- # - PassengerFace
+# <Vagrant>
+- type: loadoutGroup
+  id: PassengerFace
+  name: loadout-group-passenger-mask
+  minLimit: 0
+  loadouts:
+  - PassengerFace
 
-#- type: loadoutGroup
- #  id: PassengerGloves
- #  name: loadout-group-passenger-gloves
- #  minLimit: 0
- #  loadouts:
- #  - PassengerGloves
-#  </Trauma>
+- type: loadoutGroup
+  id: PassengerGloves
+  name: loadout-group-passenger-gloves
+  minLimit: 0
+  loadouts:
+  - PassengerGlovesBlack
+  - PassengerGloves
+#  </Vagrant>
 
 - type: loadoutGroup
   id: CommonBackpack
@@ -301,14 +330,23 @@
   name: loadout-group-passenger-outerclothing
   minLimit: 0
   loadouts:
-  - PassengerWintercoat
+  # <Vagrant> Hobo clothes
+  - PassengerVagrantCoat
+  - PassengerBarrel
+  # - PassengerWintercoat
+  # </Vagrant>
 
 - type: loadoutGroup
   id: PassengerShoes
   name: loadout-group-passenger-shoes
+  minLimit: 0 # Vagrant
   loadouts:
-  - BlackShoes
-  - WinterBoots
+  # <Vagrant> Hobo clothes
+  - PassengerOldSocks
+  - PassengerBottleSlippers
+  # - BlackShoes
+  # - WinterBoots
+  # </Vagrant>
 
 #- type: loadoutGroup
 #  id: PassengerJobTrinkets

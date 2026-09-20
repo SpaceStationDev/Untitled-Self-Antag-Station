@@ -130,6 +130,14 @@
   graph: ClothingShoeSlippersDuck
   targetNode: shoes
 
+# <Vagrant>
+- type: construction
+  parent: BaseClothing
+  id: ClothingShoeSlippersBottle
+  graph: ClothingShoeSlippersBottle
+  targetNode: shoes
+# </Vagrant>
+
 - type: construction
   parent: BaseClothing
   id: ClothingShoeSlippersLizard
