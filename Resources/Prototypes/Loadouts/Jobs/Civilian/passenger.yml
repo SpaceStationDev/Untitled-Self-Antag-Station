@@ -51,6 +51,14 @@
 #       time: 10h # silly reward for people who play passenger a lot
 
 # Face
+# - type: loadout
+#   id: PassengerFace
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: GreyTider
+#   equipment:
+#     mask: ClothingMaskGas
+
 # - type: loadoutEffectGroup
 #   id: MasterGrey
 #   effects:
@@ -68,11 +76,16 @@
 #   effects:
 #   - !type:GroupLoadoutEffect
 #     proto: MasterGrey
-# </Trauma>
 
 # Gloves
+# - type: loadout
+#   id: PassengerGloves
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: GreyTider
+#   equipment:
+#     gloves: ClothingHandsGlovesFingerlessInsulated
 
-# <Trauma>
 # Neck
 # - type: startingGear
 #   id: Mantle
@@ -98,14 +111,12 @@
     back: ClothingBackpackDuffel
 
 # Outerclothing
-
 - type: loadout
   id: PassengerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
 
 # Shoes
-
 - type: loadout
   id: BlackShoes
   equipment:
@@ -115,6 +126,7 @@
   id: WinterBoots
   equipment:
     shoes: ClothingShoesBootsWinter
+
 
 # service jumpsuit - putting it here because frontier's only service jumpsuits are hydroponics and general lmao # goob change btw
 
