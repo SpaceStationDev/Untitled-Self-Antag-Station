@@ -8,9 +8,9 @@
   description: Old faithful.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/vagrantcoat.rsi
+    sprite: _Vagrant/Clothing/Head/Hoods/vagrantcoat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/vagrantcoat.rsi
+    sprite: _Vagrant/Clothing/Head/Hoods/vagrantcoat.rsi
   - type: Tag
     tags:
     - WhitelistChameleon

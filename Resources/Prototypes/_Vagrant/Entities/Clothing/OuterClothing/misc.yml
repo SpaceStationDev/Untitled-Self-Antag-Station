@@ -7,6 +7,6 @@
   description: To show off your cartoonish level of impoverishment. It would be funny if it weren't so sad.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Misc/barrel.rsi
+    sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Misc/barrel.rsi
+    sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi

@@ -7,9 +7,9 @@
   description: Ripped... pants.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped.rsi
+    sprite: _Vagrant/Clothing/Uniforms/Shorts/Ripped/ripped.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped.rsi
+    sprite: _Vagrant/Clothing/Uniforms/Shorts/Ripped/ripped.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -18,6 +18,6 @@
   description: Ripped... pants.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi
+    sprite: _Vagrant/Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi
+    sprite: _Vagrant/Clothing/Uniforms/Shorts/Ripped/ripped_female.rsi

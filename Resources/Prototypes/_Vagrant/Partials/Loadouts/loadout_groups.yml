@@ -9,15 +9,6 @@
   - GreyJumpsuit
   - GreyJumpskirt
 
-# - type: loadoutGroup
-#   id: PassengerOuterClothing
-#   name: loadout-group-passenger-outerclothing
-#   minLimit: 0
-#   loadouts:
-#     types:
-#     - PassengerVagrantCoat
-#     - PassengerBarrel
-
 - type: loadoutGroup
   id: PassengerOuterClothing
   name: loadout-group-passenger-outerclothing

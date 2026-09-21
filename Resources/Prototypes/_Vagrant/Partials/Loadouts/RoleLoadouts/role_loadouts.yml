@@ -1,0 +1,8 @@
+# Civilian
+- type: roleLoadout
+  id: JobPassenger
+  groups:
+  - PassengerFace
+  - PassengerGloves
+  - PassengerHead
+  - PassengerAccessory
