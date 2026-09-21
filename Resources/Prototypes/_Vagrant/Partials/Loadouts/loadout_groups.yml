@@ -2,25 +2,22 @@
 
 - type: loadoutGroup
   id: PassengerJumpsuit
-  name: loadout-group-passenger-jumpsuit
   loadouts:
-  - RippedShortsWithTop
-  - RippedShorts
-  - GreyJumpsuit
-  - GreyJumpskirt
+  - TiderPants
 
 - type: loadoutGroup
   id: PassengerOuterClothing
-  name: loadout-group-passenger-outerclothing
   minLimit: 0
   loadouts:
   - PassengerVagrantCoat
   - PassengerBarrel
+  - !Remove PassengerWintercoat
 
 - type: loadoutGroup
   id: PassengerShoes
-  name: loadout-group-passenger-shoes
   minLimit: 0
   loadouts:
   - PassengerOldSocks
   - PassengerBottleSlippers
+  - !Remove BlackShoes
+  - !Remove WinterBoots

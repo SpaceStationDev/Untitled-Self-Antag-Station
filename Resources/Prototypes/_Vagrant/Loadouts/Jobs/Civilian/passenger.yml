@@ -1,14 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: loadout
-  id: RippedShorts
+  id: TiderPants
   equipment:
-    jumpsuit: ClothingUniformRippedShorts
-
-- type: loadout
-  id: RippedShortsWithTop
-  equipment:
-    jumpsuit: ClothingUniformRippedShortsWithTop
+    jumpsuit: ClothingUniformTiderPants
 
 # Face
 - type: loadout

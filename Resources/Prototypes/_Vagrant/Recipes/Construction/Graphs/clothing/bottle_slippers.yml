@@ -2,23 +2,22 @@
 
 - type: constructionGraph
   id: ClothingShoeSlippersBottle
-  start: start
   graph:
-    - node: start
-      edges:
-        - to: shoes
-          steps:
-            - tag: WaterBottle
-              name: construction-graph-tag-water-bottle
-              icon:
-                sprite: Objects/Consumable/Drinks/waterbottle.rsi
-                state: icon_empty
-              doAfter: 1
-            - tag: WaterBottle
-              name: construction-graph-tag-water-bottle
-              icon:
-                sprite: Objects/Consumable/Drinks/waterbottle.rsi
-                state: icon_empty
-              doAfter: 1
-    - node: shoes
-      entity: ClothingShoeSlippersBottle
+  - node: start
+    edges:
+    - to: shoes
+      steps:
+      - tag: WaterBottle
+        name: construction-graph-tag-water-bottle
+        icon:
+          sprite: Objects/Consumable/Drinks/waterbottle.rsi
+          state: icon_empty
+        doAfter: 1
+      - tag: WaterBottle
+        name: construction-graph-tag-water-bottle
+        icon:
+          sprite: Objects/Consumable/Drinks/waterbottle.rsi
+          state: icon_empty
+        doAfter: 1
+  - node: shoes
+    entity: ClothingShoeSlippersBottle
