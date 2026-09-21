@@ -255,45 +255,27 @@
   id: PassengerJumpsuit
   name: loadout-group-passenger-jumpsuit
   loadouts:
- # <Vagrant> Hobo clothes
-  - RippedShortsWithTop
-  - RippedShorts
   - GreyJumpsuit
   - GreyJumpskirt
-
-- type: loadoutGroup
-  id: PassengerHead
-  name: loadout-group-passenger-head
-  minLimit: 0
-  loadouts:
-  - PassengerCone
-  - PassengerTinfoil
-  - PassengerBeanie
-  - PassengerBananaHat
- # </Vagrant>
-
  # <Trauma> Made useless by now being a learner role
  # - AncientJumpsuit
  # - RainbowJumpsuit
  # - RainbowJumpskirt
- # </Trauma>
 
-# <Vagrant>
-- type: loadoutGroup
-  id: PassengerFace
-  name: loadout-group-passenger-mask
-  minLimit: 0
-  loadouts:
-  - PassengerFace
+#- type: loadoutGroup
+ # id: PassengerFace
+ # name: loadout-group-passenger-mask
+ # minLimit: 0
+ # loadouts:
+ # - PassengerFace
 
-- type: loadoutGroup
-  id: PassengerGloves
-  name: loadout-group-passenger-gloves
-  minLimit: 0
-  loadouts:
-  - PassengerGlovesBlack
-  - PassengerGloves
-#  </Vagrant>
+#- type: loadoutGroup
+ #  id: PassengerGloves
+ #  name: loadout-group-passenger-gloves
+ #  minLimit: 0
+ #  loadouts:
+ #  - PassengerGloves
+#  </Trauma>
 
 - type: loadoutGroup
   id: CommonBackpack
@@ -319,23 +301,14 @@
   name: loadout-group-passenger-outerclothing
   minLimit: 0
   loadouts:
-  # <Vagrant> Hobo clothes
-  - PassengerVagrantCoat
-  - PassengerBarrel
-  # - PassengerWintercoat
-  # </Vagrant>
+  - PassengerWintercoat
 
 - type: loadoutGroup
   id: PassengerShoes
   name: loadout-group-passenger-shoes
-  minLimit: 0 # Vagrant
   loadouts:
-  # <Vagrant> Hobo clothes
-  - PassengerOldSocks
-  - PassengerBottleSlippers
-  # - BlackShoes
-  # - WinterBoots
-  # </Vagrant>
+  - BlackShoes
+  - WinterBoots
 
 #- type: loadoutGroup
 #  id: PassengerJobTrinkets

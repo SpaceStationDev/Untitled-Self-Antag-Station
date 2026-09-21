@@ -1,0 +1,100 @@
+# Jumpsuit
+- type: loadout
+  id: RippedShorts
+  equipment:
+    jumpsuit: ClothingUniformRippedShorts
+
+- type: loadout
+  id: RippedShortsWithTop
+  equipment:
+    jumpsuit: ClothingUniformRippedShortsWithTop
+
+# Face
+- type: loadout
+  id: PassengerFace
+  equipment:
+    mask: ClothingMaskGas
+
+# Gloves
+- type: loadout
+  id: PassengerGloves
+  equipment:
+    gloves: ClothingHandsGlovesFingerlessInsulated
+
+- type: loadout
+  id: PassengerGlovesBlack
+  equipment:
+    gloves: ClothingHandsGlovesFingerless
+
+# Outer Clothing
+- type: loadout
+  id: PassengerVagrantCoat
+  equipment:
+    outerClothing: ClothingOuterCoatVagrant
+- type: loadout
+  id: PassengerBarrel
+  equipment:
+    outerClothing: ClothingOuterBarrel
+
+# Shoes
+- type: loadout
+  id: PassengerBottleSlippers
+  equipment:
+    shoes: ClothingShoeSlippersBottle
+
+- type: loadout
+  id: PassengerOldSocks
+  equipment:
+    shoes: ClothingUnderSocksOld
+
+# Head
+- type: loadout
+  id: PassengerCone
+  equipment:
+    head: ClothingHeadHatCone
+
+- type: loadout
+  id: PassengerTinfoil
+  equipment:
+    head: ClothingHeadHatTinfoilHat
+
+- type: loadout
+  id: PassengerBeanie
+  equipment:
+    head: ClothingHeadHatVagrantBeanie
+
+- type: loadout
+  id: PassengerBananaHat
+  equipment:
+    head: TrashBananaPeel
+
+# Accessory
+- type: loadout
+  id: PassengerShiv
+  storage:
+    back:
+    - Shiv
+
+- type: loadout
+  id: PassengerBrokenBottle
+  storage:
+    back:
+    - BrokenBottle
+
+- type: loadout
+  id: PassengerCrack
+  storage:
+    back:
+    - CrackChemistryVial
+
+- type: loadout
+  id: PassengerFent
+  storage:
+    back:
+    - FentanylChemistryVial
+
+- type: loadout
+  id: PassengerBeer
+  storage:
+    back:
+    - DrinkBeerCan
