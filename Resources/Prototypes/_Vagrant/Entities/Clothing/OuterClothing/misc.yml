@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterBarrel
+  name: barrel
+  description: To show off your cartoonish level of impoverishment. It would be funny if it weren't so sad.
+  components:
+  - type: Sprite
+    sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi
+  - type: Clothing
+    sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi

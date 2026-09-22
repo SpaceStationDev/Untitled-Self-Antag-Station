@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: loadoutGroup
+  id: PassengerJumpsuit
+  loadouts:
+  - TiderPants
+
+- type: loadoutGroup
+  id: PassengerOuterClothing
+  minLimit: 0
+  loadouts:
+  - PassengerVagrantCoat
+  - PassengerBarrel
+  - !Remove PassengerWintercoat
+
+- type: loadoutGroup
+  id: PassengerShoes
+  minLimit: 0
+  loadouts:
+  - PassengerOldSocks
+  - PassengerBottleSlippers
+  - !Remove BlackShoes
+  - !Remove WinterBoots

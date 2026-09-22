@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: soundCollection
+  id: FootstepPlastic
+  files:
+  - /Audio/_Vagrant/Effects/Footsteps/plasticstep1.ogg
+  - /Audio/_Vagrant/Effects/Footsteps/plasticstep2.ogg

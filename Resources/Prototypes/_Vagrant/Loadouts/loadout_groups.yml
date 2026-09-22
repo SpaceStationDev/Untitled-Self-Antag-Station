@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: loadoutGroup
+  id: PassengerAccessory
+  name: loadout-group-passenger-accessory
+  minLimit: 0
+  loadouts:
+  - PassengerShiv
+  - PassengerBrokenBottle
+  - PassengerCrack
+  - PassengerFent
+  - PassengerBeer
+
+- type: loadoutGroup
+  id: PassengerFace
+  name: loadout-group-passenger-mask
+  minLimit: 0
+  loadouts:
+  - PassengerFace
+
+- type: loadoutGroup
+  id: PassengerGloves
+  name: loadout-group-passenger-gloves
+  minLimit: 0
+  loadouts:
+  - PassengerGlovesBlack
+  - PassengerGloves
+
+- type: loadoutGroup
+  id: PassengerHead
+  name: loadout-group-passenger-head
+  minLimit: 0
+  loadouts:
+  - PassengerCone
+  - PassengerTinfoil
+  - PassengerBeanie
+  - PassengerBananaHat

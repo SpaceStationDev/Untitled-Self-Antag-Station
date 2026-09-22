@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ChemistryEmptyVialSmall
+  id: FentanylChemistryVial
+  name: fentanyl vial
+  suffix: fent
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Fentanyl
+        Quantity: 5
+
+- type: entity
+  parent: ChemistryEmptyVialSmall
+  id: CrackChemistryVial
+  name: crack vial
+  suffix: crack
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: CrackCocaine
+        Quantity: 5

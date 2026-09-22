@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodVagrantHood
+  categories: [ HideSpawnMenu ]
+  name: vagrant hood
+  description: Old faithful.
+  components:
+  - type: Sprite
+    sprite: _Vagrant/Clothing/Head/Hoods/vagrantcoat.rsi
+  - type: Clothing
+    sprite: _Vagrant/Clothing/Head/Hoods/vagrantcoat.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksOld
+  name: old socks
+  description: These socks are about as intact as your dignity.
+  components:
+  - type: Sprite
+    sprite: _Vagrant/Clothing/Under/Socks/old.rsi
+  - type: Clothing
+    sprite: _Vagrant/Clothing/Under/Socks/old.rsi
