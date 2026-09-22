@@ -24,3 +24,12 @@ Entries:
   id: 3
   time: '2026-09-21T10:15:42.0000000+00:00'
   url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/5
+- author: TwoDucksOnnaPlane
+  changes:
+  - type: Add
+    message: Sprites are back. Rejoice.
+  - type: Tweak
+    message: The lighting is now green for an AMAZING reason.
+  id: 4
+  time: '2026-09-21T10:32:27.0000000+00:00'
+  url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/1
