@@ -33,3 +33,16 @@ Entries:
   id: 4
   time: '2026-09-21T10:32:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/1
+- author: SpaceStationDev
+  changes:
+  - type: Add
+    message: Added new clothes to the assistant loadout
+  - type: Add
+    message: Added new sound effects for the water bottle slippers
+  - type: Add
+    message: Created prototypes for vials of fentanyl and crack
+  - type: Add
+    message: Added passenger accessories to the assistant loadout
+  id: 5
+  time: '2026-09-22T05:58:20.0000000+00:00'
+  url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/4
