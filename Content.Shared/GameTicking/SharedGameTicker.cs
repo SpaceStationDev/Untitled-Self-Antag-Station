@@ -34,7 +34,7 @@ namespace Content.Shared.GameTicking
         // <Vagrant> Sets overflow job to be Passenger
         public static readonly ProtoId<JobPrototype> FallbackOverflowJob = "Passenger";
 
-        public const string FallbackOverflowJobName = "job-name-passenger";
+        public const string FallbackOverflowJobName = "job-name-passenger-vagrant";
         // </Vagrant>
 
 
