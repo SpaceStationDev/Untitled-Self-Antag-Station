@@ -18,3 +18,11 @@
     requiredSlot:
     - neck
     slot: head
+
+- type: entity
+  id: TrashBagHolding
+  components:
+  - type: Clothing
+    slots: [belt]
+    sprite: Objects/Specific/Janitorial/trashbag.rsi
+  - !Remove type: ToggleableClothing  
