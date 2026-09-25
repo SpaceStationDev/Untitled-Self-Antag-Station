@@ -46,3 +46,10 @@ Entries:
   id: 5
   time: '2026-09-22T05:58:20.0000000+00:00'
   url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/4
+- author: Omustation Shadow Cabal
+  changes:
+  - type: Add
+    message: Enabled character descriptions. (512 character limit)
+  id: 6
+  time: '2026-09-23T06:13:49.0000000+00:00'
+  url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/8
