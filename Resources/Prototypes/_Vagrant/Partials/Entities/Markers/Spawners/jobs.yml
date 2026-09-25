@@ -1,0 +1,6 @@
+- type: entity
+  id: SpawnPointPassenger
+  components:
+  - type: SpawnPoint
+    extrajobs:
+    - !Remove DClass
