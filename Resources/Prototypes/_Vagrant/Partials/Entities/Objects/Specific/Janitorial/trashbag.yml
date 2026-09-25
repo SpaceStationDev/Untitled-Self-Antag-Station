@@ -25,4 +25,4 @@
   - type: Clothing
     slots: [belt]
     sprite: Objects/Specific/Janitorial/trashbag.rsi
-  - !Remove type: ToggleableClothing  
+  - !Remove type: ToggleableClothing
