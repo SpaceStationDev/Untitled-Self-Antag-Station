@@ -1,0 +1,5 @@
+- type: job
+  id: Passenger
+  icon: "JobIconPassenger"
+  name: job-name-passenger-vagrant
+  supervisors: job-supervisors-nobody
