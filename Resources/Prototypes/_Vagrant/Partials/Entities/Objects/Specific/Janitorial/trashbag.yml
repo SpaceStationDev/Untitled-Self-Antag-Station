@@ -1,0 +1,18 @@
+- type: entity
+  id: TrashBag
+  components:
+  - type: Clothing
+    sprite: Objects/Specific/Janitorial/trashbag.rsi
+    slots:
+    - BELT
+    - NECK
+    clothingVisuals:
+      belt:
+      - state: equipped-BELT
+      neck:
+      - state: equipped-NECK
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodTrashHood
+    requiredSlot:
+    - neck
+    slot: head
