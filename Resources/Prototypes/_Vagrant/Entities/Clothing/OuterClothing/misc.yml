@@ -10,6 +10,8 @@
     sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi
   - type: Clothing
     sprite: _Vagrant/Clothing/OuterClothing/Misc/barrel.rsi
+  - type: StaticPrice
+    price: 40
   - type: MultiHandedItem
   - type: Damageable
   - type: Injurable
