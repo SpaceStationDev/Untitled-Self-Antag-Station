@@ -21,4 +21,11 @@
 
 - type: entity
   id: TrashBagHolding
-  parent: TrashBagBase
+  components:
+  - type: Storage
+    maxItemSize: Large
+    grid:
+    - 0,0,19,9
+  - type: Clothing
+    slots: [belt]
+    sprite: Objects/Specific/Janitorial/trashbag.rsi
