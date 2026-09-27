@@ -69,3 +69,14 @@ Entries:
   id: 8
   time: '2026-09-25T22:29:23.0000000+00:00'
   url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/10
+- author: SpaceStationDev
+  changes:
+  - type: Add
+    message: Added more clothes to the assistant loadout
+  - type: Tweak
+    message: You can now throw barrels
+  - type: Tweak
+    message: You can now wear trash bags on your neck
+  id: 9
+  time: '2026-09-27T09:17:43.0000000+00:00'
+  url: https://github.com/Trauma-Station/Untitled-Self-Antag-Station/pull/12
