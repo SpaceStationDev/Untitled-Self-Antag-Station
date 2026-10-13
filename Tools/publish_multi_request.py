@@ -14,7 +14,7 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://cdn.traumastation.com/"
+ROBUST_CDN_URL = "https://cdn.goobstation.com/"
 FORK_ID = "Vagrant"
 
 def main():
